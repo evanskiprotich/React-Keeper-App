@@ -1,8 +1,12 @@
 import React from 'react'
-import "../style.css";
+
 
 function Header() {
-  return <h1 className="header">Keeper App</h1>;
+  return (
+    <header>
+      <h1>Keeper App</h1>
+    </header>
+  );
 }
 
 export default Header
